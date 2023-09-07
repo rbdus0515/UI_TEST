@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    /* border: 1px solid black; */
+}
+
+/* ---------------------------------------- */
+/* main */
+main {
+    width: 1920px;
+    border: 1px solid black;
+}
+
+/* ---------------------------------- */
+/* header */
+
+#header {
+    display: flex;
+    justify-content: center;
+    color: blueviolet;
+    font-size: 75px;
+    font-weight: bold;
+    margin-top: 50px
+}
+
+/* ------------------------------------------ */
+/* main-info */
+
+#main-info {
+    display: flex;
+    justify-content: end;
+}
+
+/* ------------------ */
+/* 이름, 주소지, 이메일 */
+
+#N-A-E {
+    margin-inline: 100px;
+}
+
+#N-A-E > section{
+    display: flex;
+    margin-block: 80px;
+}
+
+#N, #A, #E {
+    font-size: 45px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+#name, #adress, #email {
+    margin-left: 20px;
+    font-size: 28px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+/* ------------------ */
+/* 생년월일 연락처 */
+
+#AGE-P {
+    margin-right: 250px;
+}
+
+#AGE-P > section {
+    display: flex;
+    margin-block: 80px;
+}
+
+#AGE, #P {
+    font-size: 45px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+#age, #phone {
+    margin-left: 20px;
+    font-size: 28px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
