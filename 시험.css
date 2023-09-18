@@ -133,3 +133,15 @@ section {
     color: tomato;
     transition: 1s;
 }
+
+/* ---------------------------------------------------- */
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.white-mode {
+    background-color: white;
+    color: black;
+}
